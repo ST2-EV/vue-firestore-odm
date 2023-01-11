@@ -1,0 +1,26 @@
+{
+  "name": "vue-firestore-odm",
+  "files": [ "dist" ],
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/vue-firestore-odm.umd.js",
+  "module": "./dist/vue-firestore-odm.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-firestore-odm.es.js",
+      "require": "./dist/vue-firestore-odm.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
